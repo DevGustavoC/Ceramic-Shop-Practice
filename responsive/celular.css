@@ -1,0 +1,296 @@
+@media (max-width: 500px) {
+    html, body {
+        width: 100vw;
+    }
+
+    /* HEADER */
+    
+    header {
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header img {
+        width: 35%;
+        left: 5%;
+    }
+
+    nav {
+        right: 0;
+    }
+
+    nav ul li {
+        display: none;
+    }
+
+    .fa-bars {
+        display: flex;
+        margin-right: 20px;
+        color: #8F8D83;
+        font-size: 20px;
+    }
+
+    lord-icon {
+        right: 30%;
+    }
+
+    .car-shop:hover {
+        border-radius: 0;
+        border: none;
+    }
+
+    main {
+        margin: 0 1em;
+    }
+
+    /* LANDING PAGE */
+
+    .landing-page {
+        height: 75vh;
+        margin-bottom: 650px;
+    }
+
+    .landing-page h1 {
+        font-size: 40px;
+        line-height: 35px;
+        width: 100%;
+    }
+
+    .landing-page button {
+        font-size: 30px;
+        padding: 15px 40px;
+    }
+
+    /* ABOUT */
+
+    .about {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 65px;
+    }
+
+    .imagem img {
+        width: 50%;
+    }
+
+    .about article h2 {
+        font-size: 30px;
+        line-height: 35px;
+        width: 300PX;
+        margin-bottom: 30px;
+    }
+
+    .estilinho {
+        margin-right: 0;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .sobre {
+        letter-spacing: 5px;
+    }
+
+    .about article p {
+        width: 100%;
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .about article {
+        display: flex;
+        justify-content: center;
+        align-items: right;
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagem {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .imagem img {
+        margin-right: 0;
+    }
+
+    #img1 {
+        width: 100%;
+        align-self: center;
+    }
+
+    #img2 {
+        width: 70%;
+        height: 40%;
+        align-self: flex-start;
+    }
+
+    /* ICONES */
+
+    .icones {
+        width: 100%;
+        height: 100%;
+        padding: 100px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+        margin-bottom: 100px;
+    }
+
+    .item span {
+        font-size: 28px;
+    }
+
+    /* SECTION SHOPPING */
+
+    .text {
+        text-align: left;
+        width: 100%;
+        font-size: 17px;
+        letter-spacing: 5px;
+    }
+
+    .your-space h1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .your-space p {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .your-space button {
+        font-size: 25px;
+        padding: 20px 60px;
+    }
+
+    .shop {
+        grid-template-columns: 1fr;
+    }
+
+    .item-shop {
+        align-items: center;
+    }
+
+    /* HAPPY COSTUMERS */
+
+    .texto {
+        font-size: 15px;
+        width: 100%;
+        letter-spacing: 5px;
+        margin-right: 0;
+        width: 300px;
+        text-align: center;
+    }
+
+    .estilin {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .happy {
+        display: flex;
+        margin-top: 100px;
+        height: 100%;
+    }
+
+    .happy h1 {
+        font-size: 28px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    .conteiner2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 70px;
+        margin-bottom: 50px;
+    }
+
+    .parags p {
+        text-align: center;
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .parags {
+        align-items: center;
+    }
+
+    /* FOOTER */
+
+    .primeiro-andar {
+        flex-direction: column;
+    }
+
+    .quick-links {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 20px;
+    }
+
+    .logo-description {
+        margin-bottom: 50px;
+        align-items: center;
+    }
+
+    .logo-description a img {
+        width: 90%;
+    }
+
+    .logo-description p {
+        font-size: 15px;
+        width: 85%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .info-links {
+        padding: 0 30px;
+    }
+
+    .info-links h1 {
+        color: rgb(92, 90, 83);
+        font-size: 17px;
+    }
+
+    .info-links a {
+        font-size: 15px;
+    }
+
+    .join-community {
+        align-items: center;
+    }
+
+    .join-community h1 {
+        font-size: 17px;
+        color: rgb(92, 90, 83);
+    }
+
+    .join-community p {
+        font-size: 15px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .email-addres {
+        width: 300px;
+    }
+
+    #submit {
+        width: 100%;
+    }
+
+    .segundo-andar {
+        height: 70px;
+    }
+}
